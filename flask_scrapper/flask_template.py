@@ -18,7 +18,7 @@ def index():
 
 @app.route('/', methods=["POST"])
 def some_function():
-    text = request.form['textbox']
+    text = request.form['text']
     processed_text = text.upper()
     return processed_text
 if __name__=='__main__':

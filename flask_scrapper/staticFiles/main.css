@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
 
 body {
   background: rgb(182, 210, 255);
@@ -30,3 +30,37 @@ p {
   font-size: 16px;
   resize: none;
   }
+
+  @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.text1 {
+  
+  font-family: Georgia, serif;
+  color: rgb(106, 211, 246);
+  font-size: 20px;
+  
+}
+
+.simple-tb {
+  color: rgb(77, 165, 170);
+	width:200px;
+	height:35px;
+	border-radius:5px;
+  transition-property:background-color,border-radius,width,height,color;
+  transition-duration:0.215s;
+  transition-delay: 0.215s;
+  text-align:center;
+  border: none;
+  float: none;
+  border-bottom: 1px solid rgb(63, 175, 170);
+  font-family: 'Raleway', sans-serif;
+  background-color:transparent;
+	}
+
+.simple-tb:hover {
+		background-color:white;
+		border-radius:15px;
+		color:black;
+		width:250px;
+		height:35px;
+	}
